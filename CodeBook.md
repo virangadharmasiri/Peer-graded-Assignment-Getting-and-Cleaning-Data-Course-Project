@@ -42,6 +42,7 @@ y_train <- test/y_train.txt : 7352 rows, 1 columns
 contains train data of activities’code labels
 
 
+
 #Merges the training and the test sets to create one data set
 
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
@@ -50,14 +51,17 @@ Subject (10299 rows, 1 column) is created by merging subject_train and subject_t
 Merged_Data (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
 
 
+
 #Extracts only the measurements on the mean and standard deviation for each measurement
 
 TidyData (10299 rows, 88 columns) is created by subsetting Merged_Data, selecting only columns: subject, code and the measurements on the mean and standard deviation (std) for each measurement
 
 
+
 #Uses descriptive activity names to name the activities in the data set
 
 Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
+
 
 
 #Appropriately labels the data set with descriptive variable names
