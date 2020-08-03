@@ -7,7 +7,7 @@ The run_analysis.R script performs the data preparation and then followed by the
 Download the dataset
 Dataset downloaded and extracted under the folder called UCI HAR Dataset
 
-#Assign each data to variables
+## Assign each data to variables
 
 features <- features.txt : 561 rows, 2 columns
 
@@ -43,7 +43,7 @@ contains train data of activities’code labels
 
 
 
-#Merges the training and the test sets to create one data set
+##Merges the training and the test sets to create one data set
 
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function
 Y (10299 rows, 1 column) is created by merging y_train and y_test using rbind() function
