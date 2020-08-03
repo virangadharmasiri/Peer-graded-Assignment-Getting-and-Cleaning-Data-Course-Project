@@ -9,6 +9,7 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. 
 
+
 A full description is available at the site where the data was obtained:
 
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
@@ -18,13 +19,15 @@ Data for the project:
 [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
 
 
-Files:
 
-CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
-
+# Files:
 
 
-R script called run_analysis.R does the following
+#CodeBook.md a code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
+
+
+
+#R script called run_analysis.R does the following
 
 
 1.Merges the training and the test sets to create one data set.
@@ -39,4 +42,5 @@ R script called run_analysis.R does the following
 
 
 
-FinalData.txt is the exported final data after going through all the sequences described above
+
+#FinalData.txt is the exported final data after going through all the sequences described above
